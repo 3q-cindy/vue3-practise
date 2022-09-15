@@ -37,14 +37,14 @@ const icon_group = [{
 
 const major_data = reactive([ {
       type: 'swin',
-      image: './src/assets/img/asset 29.png',
+      image: './src/assets/img/asset29.png',
       title: '【ハワイ島】海深914mから湧き出る海洋深層水の製塩所ツアーを体験！お土産に最適な12種類の絶品ハワイアンソルトも',
       content: '「E Ulu A Paʻa」～ビショップ ミュージアム が年に一度のファンドレイジングを開催！～',
       date: '2021.08.12',
       link: 'javascript:;'
     },{
       type: 'swin',
-      image: './src/assets/img/asset 29.png',
+      image: './src/assets/img/asset29.png',
       title: '【ハワイ島】海深914mから湧き出る海洋深層水の製塩所ツアーを体験！お土産に最適な12種類の絶品ハワイアンソルトも',
       content: '「E Ulu A Paʻa」～ビショップ ミュージアム が年に一度のファンドレイジングを開催！～',
       date: '2021.08.12',
@@ -53,19 +53,19 @@ const major_data = reactive([ {
 const more_data = [
     {
         type: 'swin',
-        image: './src/assets/img/asset 29.png',
+        image: './src/assets/img/asset29.png',
         content: '「E Ulu A Paʻa」～ビショップ ミュージアム が年に一度のファンドレイジングを開催！～',
         date: '2021.08.12',
     },
     {
         type: 'sea',
-        image: './src/assets/img/asset 32.jpeg ',
+        image: './src/assets/img/asset32.jpeg ',
         content: '『世界海洋デー』とは～豊かな海の環境を守ろう～',
         date: '2021.06.08',
     },
     {
         type: 'tag',
-        image: './src/assets/img/asset 33.jpeg ',
+        image: './src/assets/img/asset33.jpeg ',
         content: 'POW! WOW! x ハワイアン航空　限定ロゴグッズ販売の収益が子供たちへの教育サポートに',
         date: '2021.06.08',
     },
@@ -77,13 +77,13 @@ const more_data = [
     },
     {
         type: 'sea',
-        image: './src/assets/img/asset 32.jpeg ',
+        image: './src/assets/img/asset32.jpeg ',
         content: '『世界海洋デー』とは～豊かな海の環境を守ろう～',
         date: '2021.06.08',
     },
     {
         type: 'tag',
-        image: './src/assets/img/asset 33.jpeg ',
+        image: './src/assets/img/asset33.jpeg ',
         content: 'POW! WOW! x ハワイアン航空　限定ロゴグッズ販売の収益が子供たちへの教育サポートに',
         date: '2021.06.08',
     },
@@ -95,7 +95,7 @@ const more_data = [
     },
     {
         type: 'tag',
-        image: './src/assets/img/asset 33.jpeg ',
+        image: './src/assets/img/asset33.jpeg ',
         content: 'POW! WOW! x ハワイアン航空　限定ロゴグッズ販売の収益が子供たちへの教育サポートに',
         date: '2021.06.08',
     },

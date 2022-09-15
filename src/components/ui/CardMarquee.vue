@@ -29,7 +29,7 @@ const card_data = [{
         date: '2022.08.12',
         link: 'javascript:;'
     },{
-        image: './src/assets/img/asset 77.jpeg',
+        image: './src/assets/img/asset77.jpeg',
         type: 'swin',
         title: 'ハワイは耳からでも文化に触れることができる～ハワイアンミュージックの世界～',
         content: 'ハワイの人々は楽器ともども、テクノロジーの進化と異文化に影響を受け続けてきました。そんな中でもハワイの音楽は島々のコミュニティに深く根ざしたハワイアンミュージッ',

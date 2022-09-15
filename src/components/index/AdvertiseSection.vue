@@ -25,7 +25,7 @@
             content: "アウワヒ・フォレスト・レストレーション・プロジェクト (Au …"
         },
         {
-            src: './src/assets/img/asset57.png',
+            src: './src/assets/img/asset057.png',
             title: "ホオクアアイナ",
             content: "ホオクアアイナ（Ho‘okua‘āina）"
         },
