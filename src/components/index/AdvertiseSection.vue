@@ -5,47 +5,47 @@
     const list_id2 = ref('zxs345');
     const list = reactive([
         {
-            src: './src/assets/img/asset 52.jpeg',
+            src: './src/assets/img/asset52.jpeg',
             title: "ホオクアアイナ",
             content: "ホオクアアイナ（Ho‘okua‘āina）"
         },
         {
-            src: './src/assets/img/asset 53.png',
+            src: './src/assets/img/asset53.png',
             title: "ナ・コア・マヌ・コンサベーション",
             content: "ナ・コア・マヌ・コンサベーション（Na Koa Manu C …"
         },
         {
-            src: './src/assets/img/asset 54.png',
+            src: './src/assets/img/asset54.png',
             title: "イオラニ宮殿",
             content: "イオラニ宮殿（Iolani Palace） …"
         },
         {
-            src: './src/assets/img/asset 56.jpeg',
+            src: './src/assets/img/asset56.jpeg',
             title: "アウワヒ・フォレスト・レストレーション・プロジェクト",
             content: "アウワヒ・フォレスト・レストレーション・プロジェクト (Au …"
         },
         {
-            src: './src/assets/img/asset 57.png',
+            src: './src/assets/img/asset57.png',
             title: "ホオクアアイナ",
             content: "ホオクアアイナ（Ho‘okua‘āina）"
         },
         {
-            src: './src/assets/img/asset 58.jpeg',
+            src: './src/assets/img/asset58.jpeg',
             title: "ハワイ・フォレスト・インスティテュート",
             content: "ハワイ・フォレスト・インスティテュート（Hawai’i Forest Institute)"
         },
         {
-            src: './src/assets/img/asset 59.png',
+            src: './src/assets/img/asset59.png',
             title: "イミロア天文学センター",
             content: "イミロア天文学センター（ʻImiloa Astronomy Center of Hawaiʻi）"
         },
         {
-            src: './src/assets/img/asset 60.jpeg',
+            src: './src/assets/img/asset60.jpeg',
             title: "ナショナル熱帯植物園",
             content: "ナショナル熱帯植物園（National Tropical Botanical Garden ）"
         },
         {
-            src: './src/assets/img/asset 61.png',
+            src: './src/assets/img/asset61.png',
             title: "マラマ・マウナルア",
             content: "マラマ・マウナルア（Mālama Maunalua ）"
         }

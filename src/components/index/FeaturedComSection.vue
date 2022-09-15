@@ -17,13 +17,13 @@ const list = reactive({
         <div class="container">
             <div class="featured_group">
                 <div class="featured_box">
-                    <div class="intro_img"><img src="@/assets/img/asset 49.jpg" alt=""></div>
+                    <div class="intro_img"><img src="@/assets/img/asset049.jpg" alt=""></div>
                     <a href="javascript:;" class="featured_link">
                         <span class="space"></span> ことばで知るハワイ
                     </a>
                 </div>
                 <div class="featured_box">
-                    <div class="intro_img"><img src="@/assets/img/asset 50.jpg" alt=""></div>
+                    <div class="intro_img"><img src="@/assets/img/asset50.jpg" alt=""></div>
                     <a href="javascript:;" class="featured_link">
                         <span class="space"></span> coming soon...
                     </a>

@@ -14,28 +14,28 @@ import { RouterLink, RouterView } from 'vue-router';
             <div class="column_4 card">
                 <a href="">
                     <div class="intro_img">
-                        <img src="@/assets/img/asset 74.png" alt="">
+                        <img src="@/assets/img/asset74.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="column_4 card">
                 <a href="">
                     <div class="intro_img">
-                        <img src="@/assets/img/asset 75.png" alt="">
+                        <img src="@/assets/img/asset75.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="column_4 card">
                 <a href="">
                     <div class="intro_img">
-                        <img src="@/assets/img/asset 76.png" alt="">
+                        <img src="@/assets/img/asset76.png" alt="">
                     </div>
                 </a>
             </div>
             <div class="column_4 card">
                 <a href="">
                     <div class="intro_img">
-                        <img src="@/assets/img/asset 76.png" alt="">
+                        <img src="@/assets/img/asset76.png" alt="">
                     </div>
                 </a>
             </div>

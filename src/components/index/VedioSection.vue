@@ -19,7 +19,7 @@
 <template>
     <section class="vedio_layout">
         <a href="javascript:;" class="mouse_cursor">
-            <img src="@/assets/img/asset 73.png" alt="arrow">
+            <img src="@/assets/img/asset73.png" alt="arrow">
         </a>
         <video class="pc_content" src="https://www.allhawaii.jp/malamahawaii/wp-content/themes/malamahawaii/movies/top_footer_mv.mp4" loop="" muted="" autoplay=""></video>
     </section>

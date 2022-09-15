@@ -34,7 +34,7 @@ const list = reactive({
                             <img src="@/assets/img/icon_tag2.svg" alt="">その他 
                         </span>
                         <div class="intro_img">
-                            <img src="@/assets/img/asset 27.jpeg " alt="">
+                            <img src="@/assets/img/asset27.jpeg " alt="">
                         </div>
                         <div class="content">
                             <h3>ユニクロ アラモアナ店〜UTme!限定デザイン「Together in Hawaii」シリーズでハワイフードバンクに寄付を〜</h3>
@@ -53,7 +53,7 @@ const list = reactive({
                             <img src="@/assets/img/icon_swin2.svg" alt="">カルチャー 
                         </span>
                         <div class="intro_img">
-                            <img src="@/assets/img/asset 29.png" alt="">
+                            <img src="@/assets/img/asset29.png" alt="">
                         </div>
                         <div class="content">
                             <h4>「E Ulu A Paʻa」～ビショップ ミュージアム が年に一度のファンドレイジングを開催！～</h4>
@@ -67,7 +67,7 @@ const list = reactive({
                             <img src="@/assets/img/icon_sea2.svg" alt="">海
                         </span>
                         <div class="intro_img">
-                            <img src="@/assets/img/asset 32.jpeg " alt="">
+                            <img src="@/assets/img/asset32.jpeg " alt="">
                         </div>
                         <div class="content">
                             <h4>『世界海洋デー』とは～豊かな海の環境を守ろう～</h4>
@@ -81,7 +81,7 @@ const list = reactive({
                             <img src="@/assets/img/icon_tag2.svg" alt="その他">その他
                         </span>
                         <div class="intro_img">
-                            <img src="@/assets/img/asset 33.jpeg " alt="">
+                            <img src="@/assets/img/asset33.jpeg " alt="">
                         </div>
                         <div class="content">
                             <h4>POW! WOW! x ハワイアン航空　限定ロゴグッズ販売の収益が子供たちへの教育サポートに</h4>
