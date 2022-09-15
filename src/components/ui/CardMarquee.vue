@@ -1,42 +1,42 @@
 <script setup>
 import { reactive } from 'vue'
 const type_data = {
-    leaf: './src/assets/img/icon_leaf_w.svg', 
-    sea: './src/assets/img/icon_sea2.svg', 
-    calc: './src/assets/img/icon_cale3.svg',
-    swin: './src/assets/img/icon_swin2.svg',
-    tag: './src/assets/img/icon_tag2.svg',
+    leaf: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/icon_leaf_w.svg', 
+    sea: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/icon_sea2.svg', 
+    calc: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/icon_cale3.svg',
+    swin: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/icon_swin2.svg',
+    tag: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/icon_tag2.svg',
 };
 const card_data = [{
-        image: './src/assets/img/asset55.jpg',
+        image: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/asset55.jpg',
         type: 'leaf',
         title: '【ハワイ島】海深914mから湧き出る海洋深層水の製塩所ツアーを体験！お土産に最適な12種類の絶品ハワイアンソルトも',
         content: '近年ハワイのエコツーリズムは益々注目され、現地では生態系と土地を守りながら、いかにして観光を両立させるかが課題となっています。表面的だけではないハワイの奥深さを',
         date: '2022.06.14',
         link: 'javascript:;'
     },{
-        image: './src/assets/img/asset56.jpg',
+        image: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/asset56.jpg',
         type: 'calc',
         title: 'キング・カメハメハ・デー制定150周年記念イベント',
         content: '6月11日は、ハワイ王国を建国したカメハメハ大王を讃える「キング・カメハメハ・デー」。1871年12月22日、大王の孫にあたるカメハメハ5世が、初代国王を讃え、',
         date: '2022.06.14',
         link: 'javascript:;'
     },{
-        image: './src/assets/img/asset57.png',
+        image: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/asset57.png',
         type: 'swin',
         title: '「E Ulu A Paʻa」～ビショップ ミュージアム が年に一度のファンドレイジングを開催！～',
         content: '「E Ulu A Paʻa」 ビショップ ミュージアムは、2021年8月19日から8月29日まで、年に一度のファンドレイジングの一環であるオークションを実施しま',
         date: '2022.08.12',
         link: 'javascript:;'
     },{
-        image: './src/assets/img/asset77.jpeg',
+        image: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/asset77.jpeg',
         type: 'swin',
         title: 'ハワイは耳からでも文化に触れることができる～ハワイアンミュージックの世界～',
         content: 'ハワイの人々は楽器ともども、テクノロジーの進化と異文化に影響を受け続けてきました。そんな中でもハワイの音楽は島々のコミュニティに深く根ざしたハワイアンミュージッ',
         date: '2021.04.18',
         link: 'javascript:;'
     },{
-        image: './src/assets/img/asset78.png',
+        image: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master/src/assets/img/asset78.png',
         type: 'calc',
         title: 'ポノトラベラー（責任ある旅行者になるため）のマナー',
         content: 'ポノトラベラーとは旅行先の住民が大切に守っている自然環境や文化、習慣に敬意を払い、正しい行動を取ることができる旅行者のことを呼びます。ハワイがいつまでも素晴らし',
