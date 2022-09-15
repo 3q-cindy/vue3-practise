@@ -2,19 +2,19 @@
 import { reactive } from 'vue';
 const cardtype = reactive({
     swin: {
-        img: './src/assets/img/icon_swin2.svg',
+        img: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master//src/assets/img/icon_swin2.svg',
         txt: 'カルチャー', 
     },
     sea: {
-        img: './src/assets/img/icon_sea2.svg',
+        img: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master//src/assets/img/icon_sea2.svg',
         txt: '海',
     },
     tag: {
-        img: './src/assets/img/icon_tag2.svg',
+        img: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master//src/assets/img/icon_tag2.svg',
         txt: 'その他',
     },
     tree: {
-        img: './src/assets/img/icon_tree.svg',
+        img: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master//src/assets/img/icon_tree.svg',
         txt: '自然',
     }
 });
@@ -22,7 +22,7 @@ const cardtype = reactive({
 const sample = reactive([
     {
         type: 'swin',
-        image: './src/assets/img/asset 29.png',
+        image: 'https://raw.githubusercontent.com/3q-cindy/vue3-practise/master//src/assets/img/asset 29.png',
         title: '【ハワイ島】海深914mから湧き出る海洋深層水の製塩所ツアーを体験！お土産に最適な12種類の絶品ハワイアンソルトも',
         content: '「E Ulu A Paʻa」～ビショップ ミュージアム が年に一度のファンドレイジングを開催！～',
         date: '2021.08.12',
