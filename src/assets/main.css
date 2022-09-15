@@ -1,0 +1,381 @@
+@font-face {
+    font-family: "FreightNeo W03 Medium";
+    src: url("fonts/FreightNeo/90fe831fa65b9632a4790c1a1732e9ab.eot");
+    /* IE9*/
+    src: url("90fe831fa65b9632a4790c1a1732e9ab.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/FreightNeo/90fe831fa65b9632a4790c1a1732e9ab.woff2") format("woff2"), /* chrome、firefox */
+    url("fonts/FreightNeo/90fe831fa65b9632a4790c1a1732e9ab.woff") format("woff"), /* chrome、firefox */
+    url("fonts/FreightNeo/90fe831fa65b9632a4790c1a1732e9ab.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("fonts/FreightNeo/90fe831fa65b9632a4790c1a1732e9ab.svg#FreightNeo W03 Medium") format("svg"),
+    url("fonts/FreightNeoW03Semi.ttf");
+    /* iOS 4.1- */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "YakuHanJP", "游ゴシック Medium", "YuGothic, YuGothicM", "Noto Sans Japanese", sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+ :root {
+    --hawaii-red: #f65936;
+    --hawaii-grey: #f9f6f5;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1240px;
+    padding: 15px;
+    margin: auto;
+}
+
+button {
+    background-color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 82px;
+    line-height: 7rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin: 30px 0;
+}
+
+.h2_hawaii_red {
+    font-size: 87px;
+    color: var(--hawaii-red);
+    font-family: "FreightNeo W03 Medium", freightneocnd-pro, sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 2.5rem;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+a,
+a:active,
+a:hover {
+    color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+}
+
+.dis_block {
+    display: block;
+    width: 100%;
+}
+
+.red {
+    color: var(--hawaii-red);
+}
+
+.white_type {
+    border-color: white;
+    color: #fff;
+}
+
+.column_2 {
+    width: calc(50% - 30px);
+}
+
+
+/* --------------------------------------------------------- */
+.more_btn,
+.more_btn_red {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    padding-right: 30px;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.more_btn_red,
+.more_btn_red:hover {
+    float: right;
+    color: var(--hawaii-red);
+    font-weight: bold;
+}
+
+.more_btn::after,
+.more_btn_red::after {
+    content: ' ';
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    min-width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-image: url(img/orange_arrow_r.svg);
+    background-size: cover;
+    border: 1px solid var(--hawaii-red);
+}
+
+.logo img {
+    width: 100%;
+}
+
+.about_link,
+.about_link:hover {
+    color: var(--hawaii-red);
+    font-weight: bold;
+}
+
+
+/* MAIN LAYOUT*/
+
+main {
+    position: relative;
+}
+
+p {
+    line-height: 2rem;
+    font-size: 15px;
+    text-align: justify;
+}
+.major_title,
+.sub_title {
+    font-family: "FreightNeo W03 Medium";
+    padding: 15px 0;
+    width: 100%;
+    border-top: 2px solid #000;
+    font-size: 22px;
+    margin-bottom: 10px;
+    vertical-align: bottom;
+}
+
+.major_title.white_type,
+.sub_title.white_type {
+    border-top-color: #fff;
+}
+
+.major_title h3,
+.major_title span,
+.sub_title h3,
+.sub_title span {
+    display: inline;
+}
+
+.sub_title {
+    border-top: 1px solid #ddd
+}
+
+.sub_title .sub {
+    font-size: 14px;
+}
+
+.intro_img,
+.intro_img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card_layout .container {
+    gap: 30px;
+}
+
+.card_layout .grid_card {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 0 50%;
+}
+
+.card_layout .grid_card>* {
+    width: calc(50% - 15px);
+    gap: 30px;
+}
+
+.card_box {
+    width: 100%;
+    transition: all .2s;
+}
+
+.card_box:hover {
+    opacity: 0.7;
+}
+
+.card_box .intro_img {
+    aspect-ratio: 5 / 3;
+    overflow: hidden;
+}
+
+.card_box .intro_img {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.card_box.movie .intro_img::before {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-image: url(img/orange_arrow_tr.svg);
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+    border-radius: 50%;
+    border: 1px solid var(--hawaii-red)
+}
+
+.card_box .intro_img,
+.card_box .intro_img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_box .title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.card_box .title.title:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(to right, #ffffff00 0%, #ffffff 85%);
+}
+
+.card_box p {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.card_box .title img {
+    width: 22px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.card_box .content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.card_box .content>h3 {
+    width: calc(180% - 20px);
+}
+
+.card_layout .grid_card .content {
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.featured_link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .2s ease-in;
+}
+
+.featured_link .space {
+    display: block;
+    width: 100%;
+    height: 88%;
+}
+
+.featured_link:hover {
+    color: var(--hawaii-red);
+    background-color: #00000080;
+}
+
+@media screen and (max-width: 767px) {
+    .column_4,
+    .column_2 {
+        width: 100%;
+    }
+    .sm_none {
+        display: none;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 2.6rem;
+        font-weight: 400;
+        letter-spacing: -2px;
+    }
+    .h2_hawaii_red {
+        font-size: 40px;
+        color: var(--hawaii-red);
+        font-family: "FreightNeo W03 Medium", freightneocnd-pro, sans-serif;
+    }
+    .logo img {
+        height: 35px;
+    }
+    h3 {
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .column_4 {
+        width: calc(50% - 8px);
+    }
+    .md_none {
+        display: none;
+    }
+    .column_3 {
+        width: calc(33% - 10px);
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .lg_none {
+        display: none;
+    }
+    .column_4 {
+        width: calc(25% - 15px);
+    }
+    .column_3 {
+        width: calc(33% - 10px);
+    }
+}
